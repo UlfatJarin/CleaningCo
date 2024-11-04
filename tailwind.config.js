@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'Roboto': ['Roboto', 'sans-serif',],
+      // font-family: "Roboto", sans-serif;
+    },
+    extend: {
+      colors: {
+        'blackc': '#000000',
+        'whitec': '#FFFFFF',
+        'main': '#2B8761',
+        'secondary': '#515854',
+        'black2nd': '#0C261A',
+        
+      },
+    },
   },
   plugins: [],
 }
