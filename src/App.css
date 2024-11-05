@@ -10,8 +10,21 @@
   @apply flex justify-between items-center
 }
 .navli{
-  @apply font-Roboto font-medium text-base text-[#515151] active:text-main active:font-bold
+  @apply font-Roboto font-medium text-base text-[#515151] active:text-main active:font-bold cursor-pointer
 }
 .img{
   @apply object-cover 
+}
+.slick-next::before, .slick-prev::before {
+  font-size: 24px;
+  line-height: 1;
+  opacity: .75;
+  color: #000;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.slick-next, .slick-prev {
+  width: 48px;
+  height: 48px;
 }
