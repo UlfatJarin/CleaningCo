@@ -7,7 +7,9 @@ export default {
   theme: {
     fontFamily: {
       'Roboto': ['Roboto', 'sans-serif',],
+      'Inter': ['Inter', 'sans-serif',],
       // font-family: "Roboto", sans-serif;
+      // font-family: "Inter", sans-serif;
     },
     extend: {
       colors: {
@@ -15,8 +17,9 @@ export default {
         'whitec': '#FFFFFF',
         'main': '#2B8761',
         'lightmain': '#00D97F',
+        'lightmain2': '#8FCCB3',
         'secondary': '#515854',
-        'black2nd': '#0C261A',
+        'black2': '#0C261A',
         
       },
     },
