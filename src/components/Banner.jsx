@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import banner from '../../public/assets/banner.jpg'
 import Input from '../layers/Input';
+import Custombtn from '../layers/Custombtn';
 
 const Banner = () => {
 
@@ -61,21 +62,26 @@ const Banner = () => {
       };
 
   return (    
-    <div className=''>
+    <div className='relative'>
 
         <Slider {...settings}>
       <div>
-        <img src={banner} alt="1" />
+        <img className='img w-full' src={banner} alt="1" />
       </div>
       <div>
-        <img src={banner} alt="2" />
+        <img className='img w-full' src={banner} alt="2" />
       </div>
       <div>
-        <img src={banner} alt="3" />
+        <img className='img w-full' src={banner} alt="3" />
       </div>
     </Slider>
-    <div>
-      <Input id='AppointmentCleaning' type='text' placeholder='Appointment Cleaning'/>
+    <div className='bg-whitec max-w-[875px] p-4 grid grid-cols-3 gap-6 absolute bottom-0 translate-y-[45%] left-1/2 -translate-x-1/2 rounded-[10px]'>
+      <Input id='Appointment' type='text' placeholder='Appointment Cleaning'/>
+      <Input id='Address' type='text' placeholder='Your Address'/>
+      <Input id='State' type='text' placeholder='State'/>
+      <Input id='AppointmentCLeaning' type='text' placeholder='Appointment Cleaning'/>
+      <Input id='Addressyours' type='text' placeholder='Your Address'/>
+      <Custombtn className='!bg-main !text-whitec' btntext='Book Now'/>
     </div>
     </div>
 

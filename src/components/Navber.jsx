@@ -5,7 +5,7 @@ import Custombtn from '../layers/Custombtn'
 const Navber = () => {
   return (
     <div className='bg-whitec'>
-        <nav className='container !max-w-[1345px]  between'>
+        <nav className='container !max-w-[1345px] my-4  between'>
             <img className='img' src={logo} alt="logo" />
             <ul className='between gap-4'>
                 <li className='navli !text-main'>Home</li>
@@ -15,7 +15,7 @@ const Navber = () => {
             </ul>
             <div className='between gap-3'>
               <Custombtn btntext='Contact us' />
-              <Custombtn btntext='Book Now' />
+              <Custombtn className='!bg-main !text-whitec'  btntext='Book Now' />
             </div>
         </nav>
 
