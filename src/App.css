@@ -5,7 +5,9 @@
 .container{
   @apply max-w-[1320px] mx-auto
 }
-
+.center{
+  @apply flex justify-center items-center
+}
 .between{
   @apply flex justify-between items-center
 }
@@ -21,6 +23,7 @@
 .p2{
   @apply font-Roboto font-medium text-lg leading-8 text-main
 }
+
 .img{
   @apply object-cover 
 }
@@ -36,4 +39,36 @@
 .slick-next, .slick-prev {
   width: 48px;
   height: 48px;
+}
+.iconMC{
+  @apply text-4xl p-1.5 mx-auto bg-lightmain3 rounded-[5px] text-black2
+}
+:where(.css-dev-only-do-not-override-apn68).ant-card .ant-card-actions {
+  margin: 0 34px 0 34px;
+  padding: 0;
+  list-style: none;
+  background: #ffffff;
+  border-top: 1px solid transparent;
+  display: flex;
+  border-radius: 0 0 8px 8px;
+
+}
+:where(.css-dev-only-do-not-override-apn68).ant-card .ant-card-actions > li:not(:last-child) {
+  border-inline-end: 1px solid transparent;
+}
+:where(.css-dev-only-do-not-override-apn68).ant-card-bordered {
+  border: 1px solid transparent;
+}
+:where(.css-dev-only-do-not-override-apn68).ant-card .ant-card-meta-title {
+  color: #0C261A;
+  font-weight: 600;
+  font-size: 20px;
+}
+:where(.css-dev-only-do-not-override-apn68).ant-card {
+  color: #69726C;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
