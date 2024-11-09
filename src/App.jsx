@@ -5,6 +5,7 @@ import Member from './components/Member'
 import Navber from './components/Navber'
 import Plan from './components/Plan'
 import Services from './components/Services'
+import Update from './components/Update'
 import Vdo from './components/Vdo'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Vdo/>
       <Plan/>
       <Member/>
+      <Update/>
 
     </div>
   )

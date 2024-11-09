@@ -15,7 +15,7 @@ const PlanCard = ({src,price,title}) => {
         <P1 p='Small kitchen (0 - 150 ft2)'/>
         <P1 p='Up to 2 additional rooms cleaning'/>
         </div>
-        <Custombtn className='border border-lightmain2 mt-12' btntext="Book Now"/>
+        <Custombtn className=' mt-12' btntext="Book Now"/>
     </div>
   )
 }

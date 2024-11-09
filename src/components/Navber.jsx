@@ -14,8 +14,8 @@ const Navber = () => {
                 <li className='navli'>Project</li>
             </ul>
             <div className='between gap-3'>
-              <Custombtn btntext='Contact us' />
-              <Custombtn className='!bg-main !text-whitec'  btntext='Book Now' />
+              <Custombtn className='border-none' btntext='Contact us' />
+              <Custombtn className='!bg-main !text-whitec border-none'  btntext='Book Now' />
             </div>
         </nav>
 
