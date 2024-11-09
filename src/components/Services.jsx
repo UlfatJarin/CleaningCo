@@ -22,7 +22,7 @@ const Services = () => {
             <img className='circle w-[86px] h-[86px] absolute top-[-64px] right-[-155px]' src={circle} alt="" />
             <img className='circle w-[42px] h-[42px] absolute top-[-6px] right-[-55px]' src={circle} alt="" />
         </div>
-        <div className='grid grid-cols-4 gap-6 '>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 '>
           <ServiceCard src={service1} title='Residential Cleaning' description='You’ll have your own moving representative on-call, any time of day or night. No automated systems or unanswered questions.' />
           <ServiceCard src={service2} title='Commercial Cleaning' description='You’ll have your own moving representative on-call, any time of day or night. No automated systems or unanswered questions.' />
           <ServiceCard src={service3} className='!bg-lightmain2' title='Event Cleanup' description='You’ll have your own moving representative on-call, any time of day or night. No automated systems or unanswered questions.' />

@@ -5,7 +5,7 @@ import { Avatar, Card } from 'antd';
 
 const { Meta } = Card;
 const MemberCard = ({src ,description,title}) => (
-  <Card
+  <Card className='mx-auto'
     style={{
       width: 300,
     }}

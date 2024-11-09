@@ -12,7 +12,7 @@ const Member = () => {
                 <p className='p2 mb-1'>Team Members</p>
                 <h2 className='h2 mb-[48px]'>Our Expert members </h2>
         </div>
-        <div className='grid grid-cols-4 gap-6 mb-16'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 '>
             <MemberCard src={member1} title='Jecissa Gomes' description='House Cleaner'/>
             <MemberCard src={member2} title='Jecissa Gomes' description='House Cleaner'/>
             <MemberCard src={member3} title='Jecissa Gomes' description='House Cleaner'/>

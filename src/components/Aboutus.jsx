@@ -11,8 +11,8 @@ import  circle from '../../public/assets/circle.png'
 const Aboutus = () => {
   return (
      <div className='bg-lightmain3'>
-       <div className='max-w-[1256px] mx-auto grid grid-cols-2 gap-[102px]   mt-[90px] '>
-        <div className='relative mb-[90px]'>
+       <div className='max-w-[1256px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-[102px]   mt-[90px] '>
+        <div className='relative md:mb-[90px]'>
             <img className='img mt-[164px]' src={helpbg} alt="" />
             <img className='img absolute top-[90px] left-[45px] rounded-[10px]' src={aboutus} alt="aboutus" />  
             <AboutCard className='absolute top-[367px] left-[118px]' Oname='A.J Hanna' position='CEO' src={othority} comment='Cleaning Co is one of the fastest-growing outsource service and cleaning service provider companies in the Bangladesh and abroad. Smart Force prides itself on being the pioneer outsource service company in-house and abroad.' />      

@@ -16,7 +16,7 @@ const Update = () => {
             <img className='circle w-[86px] h-[86px] absolute bottom-[9px] right-[-155px]' src={circle} alt="" />
             <img className='circle w-[42px] h-[42px] absolute bottom-[-3px] right-[-39px]' src={circle} alt="" />
         </div>
-        <div className='grid grid-cols-4 gap-4 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 '>
           <UpdateCard src={update1} title='The Secret of Cleaning your office' date='Nov 03, 2021' by='By Berwyn' comments='32 Comments' Descriptions='Berwyn, PA, November 1st, 2021 — SpacePointe (Dayton, OH), a fintech solutions-up […]'/>
           <UpdateCard src={update2} title='The Secret of Cleaning your office' date='Nov 03, 2021' by='By Berwyn' comments='32 Comments' Descriptions='Berwyn, PA, November 1st, 2021 — SpacePointe (Dayton, OH), a fintech solutions-up […]'/>
           <UpdateCard src={update3} title='The Secret of Cleaning your office' date='Nov 03, 2021' by='By Berwyn' comments='32 Comments' Descriptions='Berwyn, PA, November 1st, 2021 — SpacePointe (Dayton, OH), a fintech solutions-up […]'/>

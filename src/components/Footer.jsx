@@ -6,7 +6,7 @@ import Custombtn from '../layers/Custombtn'
 const Footer = () => {
     return (
         <div >
-            <footer className='container grid grid-cols-3 mt-[71px] mb-[106px] gap-8'>
+            <footer className='container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[71px] mb-[106px] gap-8'>
                 <div className='max-w-[336px]'>
                     <img src={footerlogo} alt="footerlogo" />
                     <p className='p1  my-6 '>Lorem ipsum dolor sit amet, consectetur adipis cin gelit. Ut id consectetur in integer ullamc or per ut in. Suspendisse et amet faucibus a duis sapien. Et vitae augue integer at arcu, hac a.Nun c facilisis vitae erat in nam eu at consectetur nec erat.</p>
