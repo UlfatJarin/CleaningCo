@@ -11,7 +11,7 @@ const Banner = () => {
         return (
           <div
             className={className}
-            style={{ ...style,padding:"12px 12px 12px 12px", display: "block", position:"absolute", top:"50%", right:"100px", zIndex:100, background: "white", borderRadius:"5px"  }}
+            style={{ ...style,padding:"12px 12px 12px 12px", display: "block", position:"absolute", top:"50%", right:"100px", zIndex:100, background: "", borderRadius:"5px"  }}
             onClick={onClick}
           />
         );
@@ -22,7 +22,7 @@ const Banner = () => {
         return (
           <div
             className={className}
-            style={{ ...style,padding:"12px 12px 12px 12px", height:"48px", display: "block",position:"absolute",  top:"50%", left:"100px",zIndex:100, background: "white", borderRadius:"5px" }}
+            style={{ ...style,padding:"12px 12px 12px 12px", height:"48px", display: "block",position:"absolute",  top:"50%", left:"100px", zIndex:100, background: "", borderRadius:"5px" }}
             onClick={onClick}
           />
         );
