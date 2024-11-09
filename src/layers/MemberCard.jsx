@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { FaFacebookSquare, FaLinkedin, FaPinterest, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 import { Avatar, Card } from 'antd';
-import Custombtn from './Custombtn';
 
 
 const { Meta } = Card;

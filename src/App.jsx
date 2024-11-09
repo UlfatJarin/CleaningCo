@@ -1,6 +1,8 @@
 import './App.css'
 import Aboutus from './components/Aboutus'
 import Banner from './components/Banner'
+import Contect from './components/Contect'
+import Footer from './components/Footer'
 import Member from './components/Member'
 import Navber from './components/Navber'
 import Plan from './components/Plan'
@@ -21,6 +23,8 @@ function App() {
       <Plan/>
       <Member/>
       <Update/>
+      <Contect/>
+      <Footer/>
 
     </div>
   )
