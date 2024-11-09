@@ -14,8 +14,14 @@
 .h2{
   @apply font-Inter font-medium text-[28px] text-black2 leading-8
 }
+.h3{
+  @apply font-Inter font-medium text-[20px] text-black2 leading-8
+}
 .p{
   @apply font-Roboto font-normal text-base leading-[26px] text-secondary 
+}
+.p1{
+  @apply font-Roboto font-normal text-sm leading-[26px] text-secondary 
 }
 .p2{
   @apply font-Roboto font-medium text-lg leading-8 text-main

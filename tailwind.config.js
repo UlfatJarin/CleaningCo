@@ -17,7 +17,7 @@ export default {
         'whitec': '#FFFFFF',
         'main': '#2B8761',
         'lightmain': '#00D97F',
-        'lightmain2': '#8FCCB3',
+        'lightmain2': '#8fccb37e',
         'lightmain3': '#F0FCF7',
         'secondary': '#515854',
         'black2': '#0C261A',
