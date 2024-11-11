@@ -6,7 +6,8 @@ const Navber = () => {
   return (
     <div className='bg-whitec'>
         <nav className='container !max-w-[1345px] my-4  between'>
-            <img className='img' src={logo} alt="logo" />
+          <a href="/"><img className='img' src={logo} alt="logo" /> </a>
+            
             <ul className='between gap-4'>
                 <li className='navli !text-main'>Home</li>
                 <li className='navli'>About</li>

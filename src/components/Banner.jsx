@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import banner from '../../public/assets/banner.jpg'
 import Input from '../layers/Input';
 import Custombtn from '../layers/Custombtn';
+import SOption from '../layers/SOption';
 
 const Banner = () => {
 
@@ -76,11 +77,12 @@ const Banner = () => {
       </div>
     </Slider>
     <div className='bg-whitec max-w-[875px] p-4 grid grid-cols-3 gap-6 absolute bottom-0 translate-y-[45%] left-1/2 -translate-x-1/2 rounded-[10px]'>
-      <Input id='Appointment' type='text' placeholder='Appointment Cleaning'/>
-      <Input id='Address' type='text' placeholder='Your Address'/>
-      <Input id='State' type='text' placeholder='State'/>
-      <Input id='AppointmentCLeaning' type='text' placeholder='Appointment Cleaning'/>
-      <Input id='Addressyours' type='text' placeholder='Your Address'/>
+      <SOption title='Appointment Cleaning'/>
+      <SOption title='Your Address'/>
+      <SOption title='State'/>
+      <SOption title='Appointment Cleaning'/>
+      <SOption title='Your Address'/>
+   
       <Custombtn className='!bg-main !text-whitec' btntext='Book Now'/>
     </div>
     </div>

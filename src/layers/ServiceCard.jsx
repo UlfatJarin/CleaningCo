@@ -11,7 +11,7 @@ const ServiceCard = ({src,title,description,className}) => {
         <Custombtn  btntext='Book Now' />
         
         <img className=' w-[191px] h-[191px] absolute top-[-55px] right-[-60px]' src={circle} alt="" />
-\    </div>
+    </div>
   )
 }
 
